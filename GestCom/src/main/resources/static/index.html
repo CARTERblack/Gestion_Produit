@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestion Produits & Commandes</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <span class="logo">Gestion Produits</span>
+      <ul class="nav-links">
+        <li><a href="#" id="nav-dashboard">Dashboard</a></li>
+        <li><a href="#" id="nav-produits">Produits</a></li>
+        <li><a href="#" id="nav-commandes">Commandes</a></li>
+        <li><a href="#" id="nav-panier">Panier</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Messages -->
+  <div id="message-container"></div>
+
+  <!-- Contenu principal -->
+  <main class="container">
+    <!-- Dashboard -->
+    <section id="dashboard-section" class="page-section"></section>
+    <!-- Produits -->
+    <section id="produits-section" class="page-section" style="display:none"></section>
+    <!-- Commandes -->
+    <section id="commandes-section" class="page-section" style="display:none"></section>
+    <!-- Panier -->
+    <section id="panier-section" class="page-section" style="display:none"></section>
+  </main>
+
+  <!-- Modals dynamiques -->
+  <div id="modal-container"></div>
+</body>
+</html>
